@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root{
+    --orange: #E39C2C;
+    --green: #085312;
+    --black: #010101;
+    --white:#fff;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+
+.heading1, .heading2{
+    font-weight: 700;
+    color: var(--black);
+}
+
+.heading1{
+    font-size: clamp(2rem,+4vw,2.5rem);
+}
+
+.heading2{
+    font-size: clamp(5rem,+10vw,6rem);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-green{
+    background-color:var(--green) ;
+}
+
+.bg-gradient-orange{
+    background: url(../Images/bg/oranegradientbg.svg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-gradient-green{
+    background: url(../Images/bg/greengradientbg.svg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg-gradient-green-sm{
+    background: url(../Images/bg/meetdavebg.svg) no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.phone-img{
+    margin-bottom: -16rem;
+}
+
+.bg-gradient-green{
+    background-image: linear-gradient(10,var(--green),var(--black),);
+}
+
+section{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.landing-page-bg{
+    background: url(../Images/bg/lightbg.svg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.custom-footer {
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top:2rem;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: var(--green);
+    color: var(--White);
+}
+
+.footer-links a{
+    display:block;
+    color:lightgray;
+    text-decoration:none;
+}
